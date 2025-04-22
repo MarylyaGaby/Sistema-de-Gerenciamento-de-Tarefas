@@ -2,7 +2,7 @@ import { readFile, writeFile } from 'fs/promises';
 import promptSync from 'prompt-sync';
 
 const prompt = promptSync();
-const caminhoArquivo = 'tarefas.json';
+const caminhoArquivo = './JSON/tarefas.json';
 
 // Função para ler tarefas do arquivo JSON
 async function lerTarefas() {
